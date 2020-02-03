@@ -5,7 +5,8 @@ metadata:
   namespace: chaos-testing
 spec:
   action: pod-failure
-  mode: one
+  mode: fixed-percent
+  value: "50"
   duration: "30s"
   selector:
     namespaces:
