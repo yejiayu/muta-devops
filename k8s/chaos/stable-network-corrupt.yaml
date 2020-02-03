@@ -6,7 +6,7 @@ metadata:
 spec:
   action: corrupt
   mode: fixed-percent
-  value: 30
+  value: "30"
   selector:
     namespaces:
       - mutadev

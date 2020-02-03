@@ -6,7 +6,7 @@ metadata:
 spec:
   action: pod-failure
     mode: fixed-percent
-    value: 30
+    value: "30"
   duration: "30s"
   selector:
     namespaces:

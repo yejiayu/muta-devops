@@ -6,7 +6,7 @@ metadata:
 spec:
   action: partition
   mode: fixed-percent
-  value: 50
+  value: "50"
   selector:
     namespaces:
       - mutadev
